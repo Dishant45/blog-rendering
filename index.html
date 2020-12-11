@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG-RENDERING</title>
+    <link rel="icon" href="./images/favicon.png" type="image/gif" sizes="16*16">
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://kit.fontawesome.com/4ef15724ac.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="mobile-container">
+
+
+        <!-- Top Navigation Menu -->
+        <nav>
+            <img src="./images/logo.png" alt="logo" class="logo">
+            <button class="hamburger" id="hamburger">
+                <img src="./images/hamburger.png" alt="">
+            </button>
+            <ul class="nav-ul" id="nav-ul">
+                <li><a href="asideroot">Blogs</a></li>
+                <li><a>About Us</a></li>
+                <li> <a href="#ct">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <div id="flexq" class="flex">
+            <section class="flex1">
+                <div id="root">
+
+                </div>
+            </section>
+
+            <aside class="flex2">
+                <div class="related-content" id="asideroot"></div>
+
+            </aside>
+        </div>
+        <footer>
+            <div class="footer-container">
+
+            </div>
+        </footer>
+        <script src="./src/main.js" type="module" defer></script>
+
+        <footer>
+
+            <div class="footer-container">
+                <h2 id="ct" class="f-element1">Contact Us</h2>
+
+
+
+                <ul class="f-element2">
+                    <li class="c1"><a href="https://twitter.com/"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li class="c2"><a href="https://www.linkedin.com/login"><i class="fab fa-linkedin-in"></i>
+                            Linkedin</a></li>
+                    <li class="c3"><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i> Facebook</a>
+                    </li>
+                </ul>
+                <h3>© 2020 BLOGS inc All Rights Reserved</h3>
+
+
+            </div>
+
+        </footer>
+</body>
+
+</html>
