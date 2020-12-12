@@ -13,6 +13,11 @@ Content
   **helper**-this is javascript folder in src folder which has all the functioning of blog files in it.
 
   **components**-this is javascript folder in which
-<img src='./images/BLOGRENDERBANNER.jpeg'>tps://dishant45.github.io/blog-rendering/index.html
+  
+  
+# DEMO: https://dishant45.github.io/blog-rendering/index.html
 
 <img src='./images/BLOGRENDERBANNER.jpeg'>
+
+
+
